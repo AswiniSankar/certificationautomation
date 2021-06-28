@@ -3,7 +3,7 @@ from PIL import Image
 import pandas as pd
 import os
 
-df = pd.read_csv('list3.csv')
+df = pd.read_csv('list2.csv')
 font_path = '//../fonts/DroidSerif-Bold.ttf'  #locate .ttf - this command used to locate the installed font in your system from that various select one font path
 assert os.path.isfile(font_path) #check for the font path
 font = ImageFont.truetype(font_path, 80) #here font size is 80
